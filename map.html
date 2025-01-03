@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/site.css">
+
+    <title>Apple Fest</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="title_logo">
+            <a href="index.html">
+                <picture class="logo">
+                    <img src="images/apple-harvest-logo.svg" alt="Apple Fest Logo">
+                    <!-- Source: Instructor Provided -->
+                </picture>
+            </a>
+            <h1>Apple Harvest Festival</h1>
+        </div>
+        <nav id="big_nav" class="main_nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="crafts.html">Crafts</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="history.html">History of Apple Fest</a></li>
+            </ul>
+        </nav>
+
+        <!-- Added Hamburger Menu: -->
+        <button id="hamburger_button" class="button hidden">☰</button>
+        <nav id="nav_menu" class="hidden">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="crafts.html">Crafts</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="history.html">History of Apple Fest</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main_section_content">
+            <!-- Interactive section added to Map -->
+            <div class="button_center2"><button id="show_map_button" class="button">Show Map</button></div>
+            <!-- End of interactive section added to Map -->
+            <h2 class="map_text"> Key Areas: </h2>
+            <ul class="map_p">
+                <li> Ithaca Commons: Central festival area with farmers markets, baked goods, apples, a visitor information center, and cider & wine tasting.</li>
+                <li> Food Vendors: Located along W. State St. and in the Commons, with a dedicated food vendor seating area on W. Green St. </li>
+                <li>Craft Fair: Stalls featuring local crafts along the Commons and on adjacent streets. </li>
+            </ul>
+            <div class="performance_text">
+                <h2 class="map_text"> Performance Areas:</h2>
+                <ul class="map_p">
+                    <li>Bernie Milton Pavilion: Main stage in the Ithaca Commons.</li>
+                    <li>Sound on Sound Mini Mobile Stage: Located in Press Bay alleyway.</li>
+                    <li>Street Performer Square: An area for street performers, located near the Bernie Milton Pavilion.</li>
+                    <li>Tap and Craft Beer Garden: A beer garden located at the eastern side of the Commons and another in Press Bay.</li>
+                </ul>
+            </div>
+            <h2 class="map_text"> Amenities:</h2>
+            <ul class="map_p">
+                <li>Restrooms: Conveniently located throughout the festival.</li>
+                <li>Public Parking: Available at the Seneca Garage and near Cinemapolis Movie Theatre. </li>
+                <li> TCAT Bus Stops: Accessible bus stops for public transportation.</li>
+                <li> Compost, Recycling, and Trash Stations: Environmentally friendly waste stations positioned throughout the event. </li>
+                <li>EMT Station: Located near the Sound on Sound Mini Mobile Stage for safety and first aid.</li>
+                <!--Source: Anoushna Bardhan-->
+            </ul>
+        </section>
+
+        <div class="sidebar">
+            <aside>
+
+                <h2> Apple Fest Location and Timings: </h2>
+                <p> Hosted in the Ithaca Commons (171 E M.L.K. Jr. St, Ithaca, NY 14850) </p>
+                <ul>
+                    <li> Friday, September 27: 12pm - 6pm </li>
+                    <li> Saturday, September 28: 10am - 6pm </li>
+                    <li>Sunday, September 29: 10am - 6pm</li>
+                </ul>
+                <h2> Entertainment Location and Timings:</h2>
+                <p> Located at the Bernie Milton Pavilion</p>
+                <p> Saturday 9/28:</p>
+                <ul>
+                    <li>12 PM Ageless Jazz Band</li>
+                    <li>1 PM Motherwort </li>
+                    <li>2 PM Running To Places Theatre Company</li>
+                    <li>3 PM Jill McCracken</li>
+                    <li>4 PM Harry Nichols</li>
+                    <li>5 PM Fall Creek Brass Band</li>
+                </ul>
+                <p>Sunday 9/29:</p>
+                <ul>
+                    <li>12 PM Caviar and Grits</li>
+                    <li>1 PM Fusebox</li>
+                    <li>2 PM The X’plozionz</li>
+                    <li>3 PM The Pelotones</li>
+                    <li>4 PM Cast Iron Cowboys</li>
+                    <li>5 PM Felix Free and the Rxcketeers</li>
+                </ul>
+                <!-- Source: Instructor Provided -->
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer_section">
+        <nav class="footer_nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="crafts.html">Crafts</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="history.html">History of Apple Fest</a></li>
+            </ul>
+        </nav>
+
+        <div class="social_footer">
+            <p> Follow Us on Social Media:</p>
+            <ul>
+                <li>Instagram: @applefestithaca </li>
+                <li>Twitter: @applefestithaca </li>
+                <li>Facebook: @applefestithaca </li>
+                <!---Source: Anoushna Bardhan-->
+            </ul>
+        </div>
+        <div class="contact_footer">
+            <p> Contact Us:</p>
+            <ul>
+                <li>Email: applefestithaca@gmail.com</li>
+                <!---Source: Anoushna Bardhan-->
+            </ul>
+        </div>
+        <a href="index.html">
+            <picture class="logo_footer">
+                <img src="images/apple-harvest-logo.svg" alt="Apple Fest Logo">
+                <!---Source: Instructor Provided-->
+            </picture>
+        </a>
+    </footer>
+
+    <!-- Interactive section added to Map -->
+    <div id="map_modal" class="hidden ">
+        <div class="close_button_both"><button id="close_map_button" class="close_button">X</button></div>
+        <figure>
+            <img src="images/apple-harvest-map.svg" alt="Map of Apple Fest">
+            <!---Source: Instructor Provided-->
+        </figure>
+    </div>
+    <!-- End of added interactive section -->
+
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/javascript.js"></script>
+</body>
+
+</html>
